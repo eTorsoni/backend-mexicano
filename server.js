@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use(logger);
 app.get('/', (req, res) => {
-    res.json({ mensagem: '🍣 Bem-vindo à API do Restaurante mexicano' });
+    res.json({ mensagem: ' Bem-vindo à API do Restaurante mexicano' });
 });
 
 const rotasCategorias = require('./routes/categorias');
